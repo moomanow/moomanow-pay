@@ -78,7 +78,7 @@
       <pluginManagement>
   			<plugins>
         </plugins>
-</pluginManagement>
+      </pluginManagement>
 
     <plugins>
 			<plugin>
@@ -140,5 +140,6 @@
 					</execution>
 				</executions>
 			</plugin>
+    </plugins>
       </build>
 </project>
