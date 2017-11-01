@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.moomanow.api.pay</groupId>
   <artifactId>PayBom</artifactId>
-  <version>0.0.2</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>pom</packaging>
   <parent>
     <groupId>org.sonatype.oss</groupId>
@@ -14,7 +14,7 @@
   <url>https://github.com/moomanow/moomanow-pay.git</url>
   <connection>scm:git:https://github.com/moomanow/moomanow-pay.git</connection>
   <developerConnection>scm:git:https://github.com/moomanow/moomanow-pay.git</developerConnection>
-  <tag>PayBom-0.0.2</tag>
+  <tag>head</tag>
 </scm>
   <modules>
   	<module>PaysBuy</module>
