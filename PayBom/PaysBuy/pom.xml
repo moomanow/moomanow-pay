@@ -3,7 +3,7 @@
   <parent>
     <groupId>com.moomanow.api.pay</groupId>
     <artifactId>PayBom</artifactId>
-    <version>0.0.4-SNAPSHOT</version>
+    <version>0.0.4</version>
   </parent>
   <artifactId>PaysBuy</artifactId>
   <dependencies>
