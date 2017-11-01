@@ -28,6 +28,26 @@
   	<module>PaysBuy</module>
   </modules>
   <profiles>
+    <profile>
+			<!-- Turn off strict javadoc when building on 1.8 -->
+			<activation>
+				<jdk>1.8</jdk>
+			</activation>
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<groupId>org.apache.maven.plugins</groupId>
+							<artifactId>maven-javadoc-plugin</artifactId>
+							<version>2.9</version>
+							<configuration>
+								<additionalparam>-Xdoclint:none</additionalparam>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+		</profile>
 			<profile>
 				<id>release</id>
 				<activation>
