@@ -85,7 +85,6 @@
 									<goal>deploy</goal>
 								</goals>
 								<preparationGoals>clean deploy</preparationGoals>
-								<arguments> -Dmaven.javadoc.skip=true </arguments>
 							</configuration>
 						</plugin>
 					</plugins>
